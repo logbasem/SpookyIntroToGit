@@ -64,20 +64,23 @@ def main():
                 if door_choice not in ["1", "2"]:
                     print("\n❌ Invalid choice! Please enter 1 or 2.\n")
 
+            # TODO: EDIT THESE VARIABLES TO CUSTOMIZE THE ENDING CHOICES
+            left_door_ending = "INSERT YOUR SPOOKY ENDING FOR LEFT DOOR HERE!"
+            right_door_ending = "INSERT YOUR SPOOKY ENDING FOR RIGHT DOOR HERE!"
+
             if door_choice == "1":
                 print("\n" + "=" * 50)
-                print("INSERT YOUR SPOOKY ENDING FOR LEFT DOOR HERE!")
-                print("CHOICE 1")
-                print("CHOICE 2")
+                print("You open the left door...")
+                print(left_door_ending)
+                # OPTIONAL: Add more choices here for left door path if you want to keep the story going!
                 left_door_choice = ""
-                # TODO: New programmers - complete this path!
+
             else:
                 print("\n" + "=" * 50)
-                print("INSERT YOUR SPOOKY ENDING FOR RIGHT DOOR HERE!")
-                print("CHOICE 1")
-                print("CHOICE 2")
+                print("You open the right door...")
+                print(right_door_ending)
+                # OPTIONAL: Add more choices here for left door path if you want to keep the story going!
                 right_door_choice = ""
-                # TODO: New programmers - complete this path!
             
         else:  # path1_choice == "2"
             print("\n" + "=" * 50)
