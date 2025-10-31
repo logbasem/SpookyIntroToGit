@@ -65,8 +65,19 @@ def main():
                     print("\n❌ Invalid choice! Please enter 1 or 2.\n")
 
             # TODO: EDIT THESE VARIABLES TO CUSTOMIZE THE ENDING CHOICES
-            left_door_ending = "INSERT YOUR SPOOKY ENDING FOR LEFT DOOR HERE!"
-            right_door_ending = "INSERT YOUR SPOOKY ENDING FOR RIGHT DOOR HERE!"
+            left_door_ending = "You slowly enter a dimly lit bedroom full with spider webs hanging and broken wood floorboards." \
+            "As you draw your attention towards the bed, you notice a large black figure pulsing and thick wound up webs hanging overhead." \
+            "Your curiousity gets the better of you as you decide to approach the mysterious pulsing figure. You extend your hand out to" \
+            "touch it and in a blink of an eye the figure stabs you with its fangs. Unfortunately you are now paralyzed from the neck down, but" \
+            "now you can clearly make out what the figure is and the objects hanging above the bed. You gasp in horror as you realize it is a humongous " \
+            "spider who has also captured those who made the same mistake of entering this door. You are eventually eaten alive by the spider. It eats you " \
+            "from the bottom up and you expierence horrific pain. The spider lives on with more and more vitcims choosing the wretched left door." \
+            "GAME OVER! YOU DIED! Maybe we'll see you again as a ghost... Try again to see if you can explore the haunted house without death."
+            
+            right_door_ending = "The door slams behind you immediately. You tremble for a second before you realize you are eye to eye with a genie. He tells" \
+            "you he will grant you one wish. You start to imagine all the possibilities, but then you remember that you need to get out of the house alive. You" \
+            "use your only wish. Everything goes dark for a moment and suddenly you wake up in your bedroom. You ask yourself, was it all just a dream? You have no idea" \
+            "but you know that you have to be at class in ten minutes for your final exam and then just like that your memory of this haunted house expierence fades away." 
 
             if door_choice == "1":
                 print("\n" + "=" * 50)
